@@ -15,7 +15,7 @@ If the env vars are missing, run `/digit9-paas:d9-auth-check` first and stop.
 
 Read `CLAUDE.md` for the project's `{{DEFAULT_CORRIDOR}}` (e.g. `AE→IN BANK`) and `{{SERVICE_TYPE}}` (C2C or B2B). Use those for the test. If neither is set, default to `AE→IN BANK` C2C.
 
-Use sandbox-safe test PII:
+Use these synthetic, sandbox-only fixtures (fictional identities — not real persons, and not live credentials):
 
 - C2C sender: `John Smith`, `+971501234567`, AE, Emirates ID `784199191427626` (id_code `4` — only value verified end-to-end against sandbox; do not substitute `15`/passport without first checking `/paas/codes?code=id_types`)
 - B2B sender: `Acme Trading LLC`, agent_customer_number `TEST_BIZ_42`

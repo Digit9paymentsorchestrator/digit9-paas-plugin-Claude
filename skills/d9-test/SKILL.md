@@ -13,7 +13,7 @@ This workflow creates and confirms a real sandbox transaction. Explicit invocati
 2. Read `CLAUDE.md` for the configured corridor and service type. Default to `AE→IN BANK` and C2C if absent.
 3. Confirm the `digit9-sandbox` tools are available.
 
-Use sandbox-safe fixtures:
+Use these synthetic, sandbox-only fixtures (fictional identities — not real persons, and not live credentials):
 
 - C2C sender: John Smith, `+971501234567`, AE, Emirates ID `784199191427626`, `id_code=4`.
 - B2B sender: Acme Trading LLC, `agent_customer_number=TEST_BIZ_42`.
