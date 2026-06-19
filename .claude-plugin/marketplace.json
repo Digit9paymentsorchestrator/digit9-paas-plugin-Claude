@@ -1,5 +1,6 @@
 {
   "name": "digitnine",
+  "description": "Digit9 Payments-as-a-Service integration plugin for partner LFIs — skills, slash commands, and a sandbox MCP server for cross-border remittance.",
   "owner": {
     "name": "Digit9",
     "url": "https://developer.digitnine.com"

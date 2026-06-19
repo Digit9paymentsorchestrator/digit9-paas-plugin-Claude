@@ -1,0 +1,11 @@
+Digit9 PaaS Integration Plugin
+Copyright 2026 Digit9 / Lulu International Exchange
+
+This product includes software developed at
+Digit9 (https://developer.digitnine.com).
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for terms.
+
+The bundled MCP server (mcp/digit9-sandbox-server) depends on third-party
+packages (@modelcontextprotocol/sdk, axios, zod) under their own licenses;
+those dependencies are not vendored in this repository.

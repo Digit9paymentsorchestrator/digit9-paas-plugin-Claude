@@ -11,11 +11,21 @@ A Claude Code plugin for Licensed Financial Institutions integrating Digit9's Pa
 
 ## Install
 
+From the community plugin directory (once listed):
+
 ```bash
-claude plugin install git+https://github.com/Digit9paymentsorchestrator/digit9-paas-plugin-Claude.git
+/plugin marketplace add anthropics/claude-plugins-community
+/plugin install digit9-paas@claude-community
 ```
 
-Use `/digit9-paas:d9-scaffold`, `/digit9-paas:d9-auth-check`, `/digit9-paas:d9-test`, and `/digit9-paas:d9-validate`. The seven API guidance skills also load automatically when relevant.
+Or directly from this repository:
+
+```bash
+/plugin marketplace add Digit9paymentsorchestrator/digit9-paas-plugin-Claude
+/plugin install digit9-paas@digitnine
+```
+
+Use `/digit9-paas:d9-scaffold`, `/digit9-paas:d9-auth-check`, `/digit9-paas:d9-test`, and `/digit9-paas:d9-validate`. The seven API guidance skills also load automatically when relevant. See [SETUP.md](SETUP.md) for what works with and without Digit9 credentials.
 
 ## Credentials
 
@@ -43,3 +53,7 @@ The v0.1 plugin covers OAuth2 authentication, hosted KYC onboarding, corridors a
 - API documentation: <https://developer.digitnine.com>
 - Sandbox access: contact your Digit9 integration manager
 - Plugin issues: use the official Digit9 plugin repository once published
+
+## License
+
+Apache-2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).

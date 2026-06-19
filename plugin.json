@@ -6,7 +6,16 @@
     "name": "Digit9",
     "url": "https://developer.digitnine.com"
   },
-  "license": "Proprietary",
+  "homepage": "https://developer.digitnine.com",
+  "repository": "https://github.com/Digit9paymentsorchestrator/digit9-paas-plugin-Claude",
+  "license": "Apache-2.0",
+  "keywords": [
+    "digit9",
+    "paas",
+    "payments",
+    "remittance",
+    "cross-border"
+  ],
   "mcpServers": {
     "digit9-sandbox": {
       "command": "node",

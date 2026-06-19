@@ -49,7 +49,7 @@ Three surfaces, all loosely coupled but **must stay aligned on Digit9 API shapes
 
 ## Plugin distribution
 
-`plugin.json` is the manifest (name, version, description, `mcpServers`). `.claude-plugin/marketplace.json` advertises this repo as a single-plugin marketplace so partners can `claude plugin install <marketplace-url>`. The official repository is `https://github.com/Digit9paymentsorchestrator/digit9-paas-plugin.git`; GA may later move to `https://plugins.digitnine.com/digit9-paas`. See `ROLLOUT_CHECKLIST.md` for the staged rollout (private repo → MCP build → self-test → pilots → GA).
+`plugin.json` is the manifest (name, version, description, `mcpServers`). `.claude-plugin/marketplace.json` advertises this repo as a single-plugin marketplace so partners can `claude plugin install <marketplace-url>`. The official repository is `https://github.com/Digit9paymentsorchestrator/digit9-paas-plugin-Claude.git`; GA may later move to `https://plugins.digitnine.com/digit9-paas`. This Claude-only build is also submitted to Anthropic's community plugin directory (`anthropics/claude-plugins-community`). See `ROLLOUT_CHECKLIST.md` for the staged rollout (private repo → MCP build → self-test → pilots → GA).
 
 ## Conventions worth knowing
 
