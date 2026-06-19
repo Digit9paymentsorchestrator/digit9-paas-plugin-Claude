@@ -6,7 +6,7 @@ If you discover a security issue in this plugin or its bundled `digit9-sandbox`
 MCP server, please report it privately. **Do not** open a public GitHub issue for
 security matters.
 
-- Email: **business@lulufin.com** (subject line: `SECURITY — digit9-paas-plugin`)
+- Email: **contactus@digitnine.com** (subject line: `SECURITY — digit9-paas-plugin`)
 - Or contact your Digit9 integration manager.
 
 Please include the affected version/commit, reproduction steps, and impact. We aim
