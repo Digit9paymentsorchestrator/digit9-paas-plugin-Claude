@@ -2,12 +2,14 @@
 
 A Claude Code plugin for Licensed Financial Institutions integrating Digit9's Payments-as-a-Service cross-border remittance API.
 
+**Works standalone.** The skills, slash commands, and starter templates need no credentials — they teach the correct API shapes and scaffold a working project. The bundled `digit9-sandbox` MCP server is an optional, partner-tier add-on: it makes live sandbox calls and requires Digit9-issued credentials. See [SETUP.md](SETUP.md).
+
 ## What it includes
 
-- Canonical skills for authentication, onboarding, master data, quotes, transactions, status, and webhooks.
+- Canonical skills for authentication, onboarding, master data, quotes, transactions, status, and webhooks — no credentials required.
 - Explicit scaffold, authentication-check, sandbox-test, and validation workflows.
-- A bundled MCP server exposing eight typed Digit9 sandbox tools.
 - Java/Spring Boot and Node.js/TypeScript partner starter projects.
+- An optional bundled `digit9-sandbox` MCP server exposing eight typed Digit9 sandbox tools (partner-tier; needs Digit9 credentials).
 
 ## Install
 
